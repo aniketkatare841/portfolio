@@ -1,0 +1,318 @@
+
+.backprof {
+    background-image: url('../580260-books-desk.jpg');
+    height: 700px;
+    filter: drop-shadow(10px 10px 20px black);
+}
+.colo{
+    background-color: black;
+    height: 90px;
+    
+}
+
+    
+
+.hcolor{
+    color:black;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+}
+.hcolor:hover{
+    border: 1px solid white;
+}
+.hcolor:hover{
+    transition: all ease 1s;
+    color: white;
+}
+.resume{
+    color:white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    
+   
+
+}
+.resume:hover{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+  
+}
+@media ( min-width: 300px) and (max-width:750px){
+     .hcolor{
+        margin-right: 150px;
+     }
+    
+    
+    .resume{
+        right: 10px;
+        font-size: 17px;
+    }
+    #qoute{
+        font-size: 15px;
+    }
+}
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    margin-top: 120px;
+    background-image: url('../IMG_5941.JPG');
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+    border-radius: 50%; 
+    filter: drop-shadow(10px 10px 20px black);
+    
+}
+.profile:hover{
+    transition: all ease-in-out 1s;
+    filter: drop-shadow(10px 10px 30px rgb(19, 4, 224));
+}
+.name{
+    color: white;
+    font-size: 60px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+    
+}
+#tag{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke-color:black;
+}
+#qoute{
+    position: relative;
+    top: 15px;
+    font-family:monospace;
+
+
+}
+.about{
+    border: 1px solid black;
+    height: 500px;
+    margin-left: 15px;
+    width: 100%;
+    background-color:white;
+    filter: drop-shadow(0px 0px 20px black);
+    
+    
+}
+.quali{
+    border: 1px solid black;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 15px;
+    /* filter: drop-shadow(0px 0px 10px black); */
+   
+    
+    
+}
+.data{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.mydata{
+    width: 100%;
+    margin-top: 0%;
+    
+    
+    
+}
+.description{
+   
+    display: inline-block;
+    border: 5px solid black;
+    height: 360px;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px;
+    margin-top:70px;
+
+
+}
+
+.foot{
+    margin-top: 100%;
+    background-color: black;
+    height: 200px;
+    margin-bottom: 0%;
+    
+}
+#copyr{
+    margin-top: 170px;
+    margin-bottom: 0%;
+    color: silver ;
+}
+.aboutme{
+    padding-top: 20px;
+    margin-bottom: 15px;
+    -webkit-text-stroke: 2px;
+}
+
+.Name{
+    height: 450px;
+    
+    margin: 10px;
+    margin-left: 180px  ;
+
+    border: 9px solid black;
+    padding-top: 20px;
+}
+.myname{
+    
+
+    height:450px;
+    margin: 10px;
+    border: 9px solid black;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.myeducation{
+    margin-top: 20px;
+}
+.Myquali{
+    height: 500px;
+    
+    margin: 10px;
+    margin-left: 180px  ;
+
+    border: 9px solid black;
+    padding-top: 20px;
+}
+.myquali{
+    height:500px;
+    margin: 10px;
+    border: 9px solid black;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.description2{
+    display: none;
+}
+
+/* @media ( min-width: 300px) and (max-width:750px)*/
+@media only screen and (max-width: 768px) { 
+    .description{
+        display: none;
+    }
+    .description2{
+        margin-top: 30px;
+        padding-top: 20px;
+        height: 400px;
+        
+        display: inline-block;
+        width: fit-content;
+        font-size: 10px;
+        font-family: cursive;
+        text-align: justify;
+        
+    }
+    .aboutme{
+        padding-top: 0px;
+        margin-bottom: 1px;
+        -webkit-text-stroke: 1px;
+    }
+    .Name{
+        
+    height: 400px;
+    
+    
+    margin-left: 5px  ;
+
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: fit-content;
+    
+    }
+    .myname{
+        
+    
+        padding-top: 10px;
+        height:400px;
+        margin-left: 1px;
+        border: 2px solid black;
+        padding: 10px;
+        font-family: Verdana, sans-serif;
+        width: 250px;
+        
+        
+        
+        
+    }
+    .myname .gmaill{
+        padding-top: 5px;
+        font-size: 16px;
+
+    }
+    .myinfor h2{
+        font-size: 20px;
+       
+    }
+    
+
+    
+    
+   .myeducation h2{
+    
+        font-size: 20px;
+       
+    
+   }
+   .Myquali{
+    height: 400px;
+    
+    
+    margin-left: 5px  ;
+
+    border: 2px solid black;
+    padding: 10px;
+    width: 150px;
+    
+}
+.Myquali #ug{
+
+font-size: 13px;
+}
+
+.myquali{
+        padding-top: 10px;
+        height:400px;
+        margin-left: 1px;
+        border: 2px solid black;
+        padding: 10px;
+        font-family: Verdana, sans-serif;
+        width: 220px;
+
+}
+.myquali .cs{
+    padding-top: 10px;
+    font-size: 9px;
+    -webkit-text-stroke: 0.4px;
+}
+
+
+
+}
