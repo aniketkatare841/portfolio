@@ -55,7 +55,7 @@
         font-size: 17px;
     }
     #qoute{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 .container{
@@ -236,27 +236,26 @@
     }
     .Name{
         
-    height: 400px;
+    height: 430px;
     
-    
-    margin-left: 5px  ;
-
+    margin: 0px;
+    margin-top: 10px;
+    width: 110px;
     border: 2px solid black;
-    padding-top: 10px;
-    padding-left: 10px;
-    width: fit-content;
+    
     
     }
     .myname{
         
     
-        padding-top: 10px;
-        height:400px;
-        margin-left: 1px;
+        padding: 5px;
+        padding-top: 20px;
+        height:430px;
+        
         border: 2px solid black;
-        padding: 10px;
+        
         font-family: Verdana, sans-serif;
-        width: 250px;
+        width: 230px;
         
         
         
@@ -264,7 +263,7 @@
     }
     .myname .gmaill{
         padding-top: 5px;
-        font-size: 16px;
+        font-size: 15px;
 
     }
     .myinfor h2{
@@ -285,10 +284,10 @@
     height: 400px;
     
     
-    margin-left: 5px  ;
+    margin-left: 0px  ;
 
     border: 2px solid black;
-    padding: 10px;
+    padding: 5px;
     width: 150px;
     
 }
@@ -302,9 +301,9 @@ font-size: 13px;
         height:400px;
         margin-left: 1px;
         border: 2px solid black;
-        padding: 10px;
+        padding: 5px;
         font-family: Verdana, sans-serif;
-        width: 220px;
+        width: 188px;
 
 }
 .myquali .cs{
