@@ -153,10 +153,10 @@
 }
 
 .foot{
-    margin-top: 100%;
+    margin-top: 10px;
     background-color: black;
     height: 200px;
-    margin-bottom: 0%;
+    
     
 }
 #copyr{
@@ -315,4 +315,34 @@ font-size: 13px;
 
 
 
+
+}
+
+.project{
+   height: 350px;
+   border: 9px solid black; 
+   width: 50%;
+   margin-left: 370px;
+
+   
+   
+}
+.proje{
+    display: inline-block;
+}
+
+.ybox:hover{
+    color: red;
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .project{
+    margin: 0px;
+    height: 300px;
+    width: fit-content;
+    border: none;
+}
 }
