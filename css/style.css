@@ -50,7 +50,10 @@ html{
      .hcolor{
         margin-right: 150px;
      }
-    
+
+    #tag{
+        color:white;
+    }
     
     .resume{
         right: 10px;
