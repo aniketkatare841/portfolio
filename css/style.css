@@ -1,4 +1,6 @@
-
+html{
+    background-color: black;
+}
 .backprof {
     background-image: url('../580260-books-desk.jpg');
     height: 700px;
@@ -153,9 +155,13 @@
 }
 
 .foot{
-    margin-top: 10px;
+    margin-top: 20px;
+    
+    width: 100%;
+    height: max-content;
     background-color: black;
-    height: 200px;
+   
+    
     
     
 }
@@ -345,4 +351,13 @@ font-size: 13px;
     width: fit-content;
     border: none;
 }
+}
+#demo{
+    
+    position: relative;
+    top: 170px;
+    /* display: inline; */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    color: white;
 }
