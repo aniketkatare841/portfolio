@@ -364,3 +364,13 @@ font-size: 13px;
     text-align: center; 
     color: white;
 }
+.skil{
+    left: 130px;
+    width: 900px;
+}
+@media only screen and (max-width: 768px){
+    .skil{
+        left:10px;
+        width: 300px;
+    }
+}
