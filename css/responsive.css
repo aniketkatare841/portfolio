@@ -1,0 +1,26 @@
+html{
+    background-color: white;
+}
+.RS{
+
+margin: 70px;
+ width: 500px;
+ height: 700px;
+ background-image: url('../resume.png');
+ background-size: cover;
+ background-position: center;
+filter: drop-shadow(10px 10px 20px black);
+}
+
+@media ( min-width: 300px) and (max-width:750px){
+  .RS{
+    margin: 10px;
+    margin-top: 150px;
+    width: 450px;
+    height: 600px;
+    background-image: url('../resume.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+}
