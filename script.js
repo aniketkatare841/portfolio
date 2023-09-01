@@ -1,10 +1,10 @@
-const ak = document.querySelector('.resume')
-ak.addEventListener('click',()=>{
-    alert('This is an Digital Resume by Aniket Katare')
-});
+// const ak = document.querySelector('.resume')
+// ak.addEventListener('click',()=>{
+//     alert('This is an Digital Resume by Aniket Katare')
+// });
 
-const d = new Date();
-document.getElementById("demo").innerHTML = d;
+// const d = new Date();
+// document.getElementById("demo").innerHTML = d;
 
 /* Just for visuals; not relevant to what's being demonstrated */
 //   .web-page {
@@ -31,4 +31,5 @@ document.getElementById("demo").innerHTML = d;
 //     font-size: 16px;
 //     font-weight: bold;
 //   }
+
 
