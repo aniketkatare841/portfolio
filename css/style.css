@@ -98,9 +98,12 @@ html{
 #tag{
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-    color: white;
-    -webkit-text-stroke-color:black;
+    color: white; 
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(11, 0, 0);
+    
 }
+
 #qoute{
     position: relative;
     top: 15px;
@@ -223,6 +226,15 @@ html{
 
 /* @media ( min-width: 300px) and (max-width:750px)*/
 @media only screen and (max-width: 768px) { 
+     #Aa{
+        color: yellow;
+    }
+    #Ka{
+        color: yellow;
+    }
+    #Kaa{
+        color: yellow;
+    }
     .description{
         display: none;
     }
