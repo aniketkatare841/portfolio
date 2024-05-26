@@ -1,5 +1,10 @@
+
 html{
     background-color: black;
+}
+body{
+    background-image: url('../bg.jpg');
+    background-repeat: inherit;
 }
 .backprof {
     background-image: url('../580260-books-desk.jpg');
@@ -50,18 +55,16 @@ html{
      .hcolor{
         margin-right: 150px;
      }
-
-    #tag{
-        color:white;
-    }
+    
     
     .resume{
         right: 10px;
         font-size: 17px;
     }
     #qoute{
-        font-size: 9px;
+        font-size: 13px;
     }
+   
 }
 .container{
     display: flex;
@@ -226,7 +229,18 @@ html{
 
 /* @media ( min-width: 300px) and (max-width:750px)*/
 @media only screen and (max-width: 768px) { 
-     #Aa{
+    #tag{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        color: white; 
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(248, 247, 247);
+    }
+    .description{
+        display: none;
+    }
+
+    #Aa{
         color: yellow;
     }
     #Ka{
@@ -235,9 +249,7 @@ html{
     #Kaa{
         color: yellow;
     }
-    .description{
-        display: none;
-    }
+
     .description2{
         margin-top: 30px;
         padding-top: 20px;
@@ -365,6 +377,8 @@ font-size: 13px;
     height: 300px;
     width: fit-content;
     border: none;
+
+   
 }
 }
 #demo{
@@ -376,6 +390,20 @@ font-size: 13px;
     text-align: center; 
     color: white;
 }
+/* #eye{
+    display: inline-block;
+    font-size: 60px;
+    position: sticky;
+    top: 120px;
+    right: 100px;
+    
+} */
+#eyeo{
+    position: fixed ;
+    display: inline-block;
+    font-size: 60px;
+   
+}
 .skil{
     left: 130px;
     width: 900px;
@@ -385,4 +413,5 @@ font-size: 13px;
         left:10px;
         width: 300px;
     }
+    
 }
